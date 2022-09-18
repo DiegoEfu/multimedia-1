@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Consolas;
+}
+
+/* estilos de barra de navegacion */
+#nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+#nav > ol{
+    width: 80%;
+
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#nav > ol > li{
+    text-align: center;
+    width: fit-content;
+    height: 40px;
+    padding: 10px 5px 0 5px;
+    font-size: 20pt;
+}
+
+#nav > ol > li:hover{
+    background-color: aqua;
+}
+
+.navlinks{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+/* Banner */
+
+#banner{
+    padding-top: 60px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: azure;
+
+    background-image: url('../img/banner_bg.jpg');
+}
+
+/* estilos de cuerpo */
+#cuerpo{
+    min-height: 100vh;
+    padding: 0 25% 0 25%;
+
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(155,155,226,1) 0%, rgba(91,179,238,1) 62%, rgba(0,212,255,1) 100%);
+}
+
+#contenido{
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+}
+
+h1{
+    font-family: Consolas;
+    text-align: center;
+}
+
+h2{
+    margin: 8px 0 8px 0;
+}
+
+img{
+    width: 75%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+}
+
+.small{
+    font-size: small;
+    text-align: center;
+
+    margin-bottom: 5px;
+}
+
+ul{
+    margin-left: 20px;
+}
+
+.logo{
+    width: 200px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.imagen-grande{
+    width: 100%;
+    height: fit-content;
+}
+
+iframe{
+    display: block;
+    margin: 15px auto 5px auto;
+}
+
+/* estilos del footer */
+
+#footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
