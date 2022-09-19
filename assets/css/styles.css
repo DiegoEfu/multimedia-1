@@ -58,7 +58,7 @@
     min-height: 100vh;
     padding: 0 25% 0 25%;
 
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(155,155,226,1) 0%, rgba(91,179,238,1) 62%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(25,100,255,1) 0%, rgba(255,255,255,1) 49%, rgba(0,212,255,1) 100%);
 }
 
 #contenido{
