@@ -119,6 +119,10 @@ iframe{
     margin: 15px auto 5px auto;
 }
 
+i{
+    color: white;
+}
+
 /* estilos del footer */
 
 #footer{
