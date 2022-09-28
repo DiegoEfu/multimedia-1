@@ -4,6 +4,10 @@
     font-family: Consolas;
 }
 
+html{
+    min-width: 600px;
+}
+
 /* estilos de barra de navegacion */
 #nav{
     position: fixed;
